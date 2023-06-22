@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.clear-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.clear-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hd {
+  opacity: 0;
+}
+
+.header {
+  height: 75px;
+  width: auto;
+  background-image: url("../img/head.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
+  padding: 35px;
+}
+
+.navigation {
+  display: block;
+  min-height: 35px;
+  width: auto;
+  background: linear-gradient(to right, #001942, #000000);
+  font-size: 25px;
+  padding: 10px;
+}
+
+.nav-list, .main-list {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav-links, .nav-parag {
+  padding: 10px 30px;
+  display: block;
+  margin: 0;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.header-parag {
+  color: #FFFFFF;
+  margin: auto;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+.main {
+  min-height: 95vh;
+  margin: 0 55px;
+}
+
+.main-about {
+  font-size: 1em;
+}
+
+.main-map {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.main-landscapes {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+.landscape-screenshot {
+  position: absolute;
+  right: -5px;
+}
+
+.ldse-right {
+  left: 0;
+}
+
+.ldse-bar {
+  left: 0;
+}
+
+.main-desc-ldse {
+  color: #000000;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  min-height: 200px;
+  background: linear-gradient(to right, #001942, #000000);
+}
+
+.footer-text {
+  color: #FFFFFF;
+  margin: 0;
+  padding: 15px;
+  opacity: 50%
+}
+
+.underline-dec {
+  text-decoration: underline;
+}
+
+.down1 {
+  padding: 10px 0px;
+  font-size: 25px;
+  color: #090921;
+  text-decoration: none;
+}
+
+.images {
+  z-index: 2;
+  margin-bottom: -40px;
+  margin-top: 60px;
+  transition: 0.5s;
+}
+
+.card {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  margin-bottom: 35px;
+  margin-left: 25px;
+}
+
+.card:hover .images {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  transition: 0.5s;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 35px;
+}
